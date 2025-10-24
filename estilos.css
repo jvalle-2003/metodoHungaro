@@ -1,0 +1,50 @@
+body {
+    font-family: system-ui, Segoe UI, Roboto, Arial;
+    margin: 20px;
+    background: #f7fafc;
+    color: #0f172a;
+}
+
+h1 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5em;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 8px;
+}
+
+td, th {
+    border: 1px solid #cbd5e1;
+    padding: 6px;
+    text-align: center;
+    min-width: 48px;
+}
+
+input[type=number] {
+    width: 60px;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 100px;
+    text-align: center;
+}
+
+button {
+    padding: 6px 10px;
+    margin: 4px;
+    border-radius: 6px;
+    border: 1px solid #94a3b8;
+    background: #fff;
+    cursor: pointer;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+.assigned {
+    background: #dcfce7;
+}
